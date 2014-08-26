@@ -1,6 +1,6 @@
 # Mongoid::AutoIncreaseId
 
-TODO: Write a gem description
+Override id field to MySQL like auto increment for Mongoid in a way different from [github.com:@huacnlee/mongoid_auto_increment_id](https://github.com/huacnlee/mongoid_auto_increment_id)
 
 ## Installation
 
@@ -18,11 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/mongoid-auto_increase_id/fork )
+1. Fork it ( http://github.com/Slacken/mongoid-auto_increase_id/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

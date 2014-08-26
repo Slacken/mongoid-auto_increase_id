@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Binz"]
   spec.email         = ["xinkiang@gmail.com"]
   spec.summary       = %q{Override id field to MySQL like auto increment for Mongoid in a way different from github.com:@huacnlee}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.description   = %q{Mongoid auto increase id}
   spec.homepage      = ""
   spec.license       = "MIT"
 
