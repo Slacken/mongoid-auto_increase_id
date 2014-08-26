@@ -19,10 +19,10 @@ module Mongoid
       o["value"]["c"].to_i
     end
 
-    def reset_id_counter
+    def reset_id_counter(value = 0)
       Mongoid::Sessions.default.command({:findAndModify => "mongoid.auto_increment_ids",
         :query  => { :_id => collection_name.to_s },
-        :update => { "$set" => { :c => 0 } }
+        :update => { "$set" => { :c => value } }
         })
     end
 
